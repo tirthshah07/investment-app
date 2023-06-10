@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'investment-app';
+
+  hamburgercontentVariable:boolean = false;
+  openHamburgermenu(){
+    this.hamburgercontentVariable =! this.hamburgercontentVariable;
+   }
+
 }
